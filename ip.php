@@ -52,7 +52,7 @@ print "<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">
 	<tr><td>Port</td><td>".$_SERVER['REMOTE_PORT']."</td></tr>
 	<tr><td>Browser (User Agent)</td><td>".$_SERVER['HTTP_USER_AGENT']."</td></tr>
 	<tr><td>Request Time (Unixtime)</td><td>" .$_SERVER['REQUEST_TIME'] ."</td></tr>
-	<tr><td>Request Time</td><td>" .date("d.m.Y H:i:s",$_SERVER['REQUEST_TIME']) ."</td></tr>
+	<tr><td>Request Time</td><td>" .date("m-d-Y h:i:s A",$_SERVER['REQUEST_TIME']) ."</td></tr>
 </table>";
 
 
